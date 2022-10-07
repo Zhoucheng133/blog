@@ -9,7 +9,7 @@ export default {
     name:"homepage",
     data(){
         return{
-            
+            msg:"hello world!",
         }
     },
     methods: {
