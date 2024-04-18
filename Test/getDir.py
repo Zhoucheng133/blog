@@ -1,4 +1,6 @@
 import os
+import ast
+import pyperclip
 
 def get_files_without_extension(folder_path):
     try:
@@ -9,8 +11,15 @@ def get_files_without_extension(folder_path):
         return result
     except Exception as e:
         print(f"发生错误：{e}")
+def sort_key(item):
+    t=-1
+    try:
+        t=int(item.split('_')[0])
+    finally:
+        return t
 
 # 使用示例
-folder_path = "docs/develop/React"
+folder_path = "docs/develop/Vue2"
 file_names = get_files_without_extension(folder_path)
-print(file_names)
+print(sorted(ast.literal_eval(file_names), key=sort_key))
+pyperclip.copy(str(sorted(ast.literal_eval(file_names), key=sort_key)))
