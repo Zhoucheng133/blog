@@ -5,7 +5,8 @@
   "author": "zhoucheng",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
