@@ -2,7 +2,14 @@ module.exports = {
   plugins: [
     ["vuepress-plugin-auto-sidebar", {}]
   ],
+  head: [
+    // 设置 favor.ico，.vuepress/public 下
+    [
+      'link', { rel: 'icon', href: '/logo.png' }
+    ]
+  ],
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       {
         text: '主页',
