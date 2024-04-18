@@ -11,12 +11,12 @@ module.exports = {
       {
         text: '开发用文档',
         items: [
-          { text: 'Vue2', link: '/develop/vue2/' },
-          { text: 'Vue3', link: '/develop/vue3/' },
+          { text: 'Vue2', link: '/develop/Vue2/' },
+          { text: 'Vue3', link: '/develop/Vue3/' },
           { text: 'React', link: '/develop/React/' },
-          { text: 'Flutter', link: '/develop/flutter/' },
-          { text: 'JavaScript', link: '/develop/js/' },
-          { text: 'CSS', link: '/develop/css/' },
+          { text: 'Flutter', link: '/develop/Flutter/' },
+          { text: 'JavaScript', link: '/develop/JavaScript/' },
+          { text: 'CSS', link: '/develop/CSS/' },
           { text: 'Electron', link: '/develop/Electron/' },
           { text: 'Java', link: '/develop/Java/' },
           { text: '常用命令', link: '/develop/常用命令/' },
