@@ -90,8 +90,30 @@ import { defineStore } from "pinia";
 import { ref } from "vue";
 export default defineStore("main", ()=>{
   let count=ref(0);
-  const add=()=>{
-    count.value+=1;
+})
+```
+
+完整的写法如下：
+```ts
+import { defineStore } from "pinia";
+export default defineStore("main", {
+  actions: {
+    // 动作函数
+    add(){
+      this.count+=1;
+    }
+  },
+  state(){
+    // 状态
+    return {
+      count: 0,
+    }
+  },
+  getters: {
+    // 计算属性
+    bigSun():number{
+      return this.sum*10
+    }
   }
 })
 ```
@@ -102,15 +124,49 @@ export default defineStore("main", ()=>{
 <!-- App.vue -->
 <template>
   <div>
-    {{ main().count }}
+    {{ mainStore.count }}
     <button @click="add">Add</button>
   </div>
 </template>
 
 <script setup lang="ts">
 import main from "./stores/main";
+const mainStore=main();
 const add=()=>{
-  main().add();
+  mainStore.count+=1;
+  // 或者
+  mainStore.$patch({
+    count: mainStore.count+1
+  })
+  // 或者
+  mainStore.add();
 }
+</script>
+```
+
+也可以这么使用
+
+
+```html
+<!-- App.vue -->
+<template>
+  <div>
+    {{ count }}
+    <button @click="add">Add</button>
+  </div>
+</template>
+
+<script setup lang="ts">
+import main from "./stores/main";
+import { storeToRefs } from "pinia";
+
+const mainStore=main();
+const { count } = storeToRefs(mainStore);
+const add=()=>{
+  count+=1;
+}
+count.$subscribe((mutate, state)=>{
+  // 监听变化
+})
 </script>
 ```
