@@ -170,3 +170,39 @@ count.$subscribe((mutate, state)=>{
 })
 </script>
 ```
+
+## 注意
+
+```ts
+// store.main.ts
+import { defineStore } from "pinia";
+import { ref } from "vue";
+export default defineStore("main", ()=>{
+  let count=ref(0);
+  // 如果是响应式的，不要直接赋值
+  // 错误写法:
+  // let count=0
+})
+```
+
+```ts
+// App.vue
+import main from "./stores/main";
+
+// 可以正确执行
+const adder_1=()=>{
+  main().count+=1;
+}
+
+// 错误操作
+let { count }=main();
+const adder_2=()=>{
+  count+=1;
+}
+
+// 也可以这么写
+let { count }=storeToRefs(main());
+const adder_2=()=>{
+  count+=1
+}
+```
