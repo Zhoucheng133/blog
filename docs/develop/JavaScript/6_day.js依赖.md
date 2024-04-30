@@ -27,7 +27,7 @@ day.js的官方文档[在这里](https://dayjs.gitee.io/docs/zh-CN/installation/
 import dayjs from 'dayjs'
 
 const dateNow=new Date();
-console.log(dateNow.format("YYYY-MM-DD hh:mm"))
+console.log(dayjs(dateNow).format("YYYY-MM-DD hh:mm"))
 // 输出当前的时间，例如2024-4-8 19:02
 ```
 
