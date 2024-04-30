@@ -8,7 +8,7 @@ day.js的官方文档[在这里](https://dayjs.gitee.io/docs/zh-CN/installation/
   ```bash
   npm install dayjs
   # 或者使用yarn
-  yarn install dayjs
+  yarn add dayjs
   ```
 - 这样导入js
   ```js
