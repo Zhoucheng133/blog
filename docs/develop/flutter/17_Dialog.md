@@ -30,7 +30,7 @@ showDialog(
         ElevatedButton(
           onPressed: () {
             // 点击取消之后的操作
-            Navigator.pop(context)
+            Navigator.pop(context);
           }, 
           child: Text("取消")
         ),
