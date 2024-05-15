@@ -76,3 +76,22 @@ showDialog(
   },
 );
 ```
+
+## 在`Dialog`中使用`setState`
+
+```dart
+showDialog(
+  context: context, 
+  builder: (BuildContext context)=>AlertDialog(
+    title: /** 标题 */,
+    content: StatefulBuilder(
+      builder: (BuildContext context, StateSetter setState) {
+        // ...
+      },
+    ),
+    actions: [
+      // ...
+    ]
+  ),
+);
+```
