@@ -79,6 +79,8 @@ TextField(
 
 ## 输入完成操作
 
+一般在移动端上按下回车键的操作
+
 ```dart
 TextField(
   controller: key,
@@ -88,3 +90,11 @@ TextField(
 ),
 ```
 
+## 密码框
+
+```dart
+TextField(
+  controller: key,
+  obscureText: true;
+),
+```
