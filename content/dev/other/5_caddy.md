@@ -64,9 +64,8 @@ example.com {
 }
 ```
 
-:::warning
-如果后端路径没有自带/api路径，使用`handle_path`而不是`handle`
-:::
+> [!warning]
+> 如果后端路径没有自带/api路径，使用`handle_path`而不是`handle`
 
 ||请求地址|转发地址|
 |-|-|-|
