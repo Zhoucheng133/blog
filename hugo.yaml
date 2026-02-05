@@ -2,6 +2,7 @@
 title: ZhouC's Blog
 
 defaultContentLanguage: zh-cn
+enableInlineShortcodes: true
 
 # import hextra as module
 module:

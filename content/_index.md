@@ -9,6 +9,7 @@ toc: false
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="dev" title="开发文档" icon="book-open" >}}
+  {{< card link="myprj" title="开发的项目" icon="code" >}}
+  {{< card link="travel" title="旅记" icon="map" >}}
 {{< /cards >}}
