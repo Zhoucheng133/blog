@@ -28,24 +28,31 @@ menu:
     - name: Flutter
       parent: dev
       weight: 1
+      pageRef: /dev/flutter
     - name: CSS
       parent: dev
       weight: 2
+      pageRef: /dev/css
     - name: JavaScript
       parent: dev
       weight: 3
+      pageRef: /dev/javascript
     - name: Vue
       parent: dev
       weight: 4
+      pageRef: /dev/vue
     - name: React
       parent: dev
       weight: 5
+      pageRef: /dev/react
     - name: Docker
       parent: dev
       weight: 6
+      pageRef: /dev/docker
     - name: 其它
       parent: dev
       weight: 7
+      pageRef: /dev/other
 
     - name: 开发的项目
       pageRef: /myprj
