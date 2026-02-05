@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: ZhouC's Blog
+
+defaultContentLanguage: zh-cn
 
 # import hextra as module
 module:
@@ -21,26 +23,48 @@ menu:
     - name: 开发文档
       weight: 1
       identifier: dev
-    - name: About
-      pageRef: /about
+
+    - name: Flutter
+      parent: dev
+      weight: 1
+    - name: CSS
+      parent: dev
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: JavaScript
+      parent: dev
       weight: 3
-    - name: Search
+    - name: Vue
+      parent: dev
       weight: 4
+    - name: React
+      parent: dev
+      weight: 5
+    - name: Docker
+      parent: dev
+      weight: 6
+    - name: 其它
+      parent: dev
+      weight: 7
+
+    - name: 开发的项目
+      pageRef: /myprj
+      weight: 2
+
+    - name: 游记
+      pageRef: /travel
+      weight: 3
+    - name: 欢迎页 ↗
+      url: "https://z-server.top"
+      weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/Zhoucheng133"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -48,8 +72,8 @@ params:
     displayLogo: false
 
   footer:
-    displayCopyright: true
-    displayPoweredBy: true
+    displayCopyright: false
+    displayPoweredBy: false
 
   editURL:
     enable: true
