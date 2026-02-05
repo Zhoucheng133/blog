@@ -1,9 +1,10 @@
 ---
-title: My Site
 toc: false
 ---
 
-This is the landing page.
+## 👋 Hi!
+
+这是我的博客页面，主要记录一些开发笔记、开发的项目以及游记
 
 ## Explore
 
@@ -11,7 +12,3 @@ This is the landing page.
   {{< card link="docs" title="Docs" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
