@@ -3,8 +3,6 @@ title: "Caddy"
 weight: 5
 type: docs
 ---
-
-
 相比`nginx`，Caddy配置更加简单，而且支持自动SSL
 
 ## 安装

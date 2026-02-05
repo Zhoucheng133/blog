@@ -3,7 +3,6 @@ title: "GestureDetector"
 weight: 3
 type: docs
 ---
-
 使用`Container`作为一个按钮
 
 ## 点击的操作

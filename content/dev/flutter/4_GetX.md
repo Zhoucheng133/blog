@@ -3,7 +3,6 @@ title: "GetX"
 weight: 5
 type: docs
 ---
-
 GetX是在`Flutter`中创建全局变量/自定义路由/多语言支持等功能的一个依赖
 
 ## 安装
@@ -417,4 +416,4 @@ return Obx(()=>
     // 其它内容
   )
 );
-````
+```

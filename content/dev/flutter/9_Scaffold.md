@@ -3,7 +3,6 @@ title: "Scaffold"
 weight: 10
 type: docs
 ---
-
 对于`MaterialApp`，见 [24: MaterialApp](/dev/flutter/24_MaterialApp)
 
 ## 基本参数
