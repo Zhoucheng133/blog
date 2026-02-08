@@ -62,7 +62,7 @@ menu:
       pageRef: /travel
       weight: 3
     - name: 欢迎页 ↗
-      url: "https://z-server.top"
+      url: "https://zhoucheng133.github.io/Home"
       weight: 4
     - name: Search
       weight: 5
