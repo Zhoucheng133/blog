@@ -11,6 +11,8 @@ title: 东京
   {{< card link="/travel/tokyo/day1" title="Day1">}}
   {{< card link="/travel/tokyo/day2" title="Day2">}}
   {{< card link="/travel/tokyo/day3" title="Day3">}}
+  {{< card link="/travel/tokyo/day4" title="Day4">}}
+  {{< card link="/travel/tokyo/day5" title="Day5">}}
 {{< /cards >}}
 
 ## 大致行程
