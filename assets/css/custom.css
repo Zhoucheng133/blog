@@ -1,3 +1,9 @@
 td {
   padding: 8px !important;
 }
+
+.content img {
+  max-height: 400px; 
+  width: auto;
+  display: block;
+}

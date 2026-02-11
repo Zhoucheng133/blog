@@ -7,7 +7,7 @@ type: docs
 
 把外部的`Container`想象成一个网格，分割为长`x`，宽`y`的网格，然后根据所占长和宽来布置一个内容，譬如：
 
-<img src="https://s2.loli.net/2023/07/30/rIRdfqiWpEaDuY1.png" width="500px">
+<img src="https://s2.loli.net/2023/07/30/rIRdfqiWpEaDuY1.png" width="400px">
 
 我们把外部的`Container`切分为长7宽5的网格，然后我们需要的是左上角4x3的内容，我们需要这样来设计：
 
@@ -60,7 +60,7 @@ type: docs
 
   使用这样的代码得到的便是一个没有内容的网格：
 
-  <img src="https://s2.loli.net/2023/07/30/djXWHfybEIZqOGs.png" width="500px">
+  <img src="https://s2.loli.net/2023/07/30/djXWHfybEIZqOGs.png" width="400px">
 
   下面我们就可以在网格内创建`cell`了
 
@@ -84,7 +84,7 @@ type: docs
 
   这样我们就可以得到我们想要的位置和大小了：
 
-  <img src="https://s2.loli.net/2023/07/30/aAYxotD1X3gmFq5.png" width="500px">
+  <img src="https://s2.loli.net/2023/07/30/aAYxotD1X3gmFq5.png" width="400px">
 
   另附：关于Grid网格布局（等距）设计页面，[点此跳转到Gitee](https://gitee.com/Ryan-zhou/grid-layout-gui)
 
@@ -92,7 +92,7 @@ type: docs
 
   可以用于替代`flex`布局，比如单独行：
 
-  <img src="https://s2.loli.net/2023/07/30/YDifaoVc1SIHBWK.png"  width="500px">
+  <img src="https://s2.loli.net/2023/07/30/YDifaoVc1SIHBWK.png"  width="400px">
 
   其代码是这样的(`Container`)：
 
