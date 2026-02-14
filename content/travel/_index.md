@@ -24,6 +24,5 @@ title: 游记
 
 {{< cards >}}
   {{< card link="/travel/tokyo" title="东京">}}
-  {{< card link="/travel/osaka" title="大阪">}}
-  {{< card link="/travel/kyoto" title="京都">}}
+  {{< card link="/travel/osaka" title="关西">}}
 {{< /cards >}}
