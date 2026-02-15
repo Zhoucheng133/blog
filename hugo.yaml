@@ -49,6 +49,10 @@ menu:
       parent: dev
       weight: 6
       pageRef: /dev/docker
+    - name: Tauri
+      parent: dev
+      weight: 6
+      pageRef: /dev/tauri
     - name: 其它
       parent: dev
       weight: 7
