@@ -4,6 +4,7 @@ title: 关西
 
 > [!NOTE] 时间
 > 2025年10月10日～2025年10月15日  
+> 本次行程有制作Vlog，点击[这里](https://www.bilibili.com/video/BV1sd2ABvEDA/)查看
 
 ## 索引
 
