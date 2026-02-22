@@ -10,5 +10,5 @@ toc: false
 {{< cards >}}
   {{< card link="dev" title="开发文档" icon="book-open" >}}
   {{< card link="myprj" title="开发的项目" icon="code" >}}
-  {{< card link="travel" title="旅记" icon="map" >}}
+  {{< card link="travel" title="游记" icon="map" >}}
 {{< /cards >}}
