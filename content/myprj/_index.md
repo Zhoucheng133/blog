@@ -95,6 +95,19 @@
       <td>Rust</td>
     </tr>
     <tr>
+    <tr>
+      <td rowspan="2"><img draggable=false src="assets/towebp.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/toWebp">toWebp</a></td>
+      <td><a href="https://github.com/Zhoucheng133/toWebp">App</a></td>
+      <td>Tauri</td>
+      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td rowspan="2">Convert image to webp tool</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/toWebp-Core">Core</a></td>
+      <td>Go</td>
+    </tr>
+    <tr>
       <td><img draggable=false src="assets/oneloop.svg" width=50 style="width: 50px" /></td>
       <td><a href="https://github.com/Zhoucheng133/One-Loop">One Loop</a></td>
       <td>/</td>
