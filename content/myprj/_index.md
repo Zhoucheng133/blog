@@ -86,6 +86,18 @@ title: My Projects | 开发的项目
       <td>qBittorrent & Aria Cilent</td>
     </tr>
     <tr>
+      <td rowspan="2"><img draggable=false src="assets/facedetector.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/FaceDetector-App">FaceDetector</a></td>
+      <td><a href="https://github.com/Zhoucheng133/FaceDetector-App">App</a></td>
+      <td>Flutter</td>
+      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td rowspan="2">Face Detect Tool</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/Face-Detector">Core</a></td>
+      <td>Python</td>
+    </tr>
+    <tr>
       <td rowspan="2"><img draggable=false src="assets/server_express.svg" width=50 style="width: 50px" /></td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Server-Express">Server Express</a></td>
       <td><a href="https://github.com/Zhoucheng133/Server-Express">App</a></td>
