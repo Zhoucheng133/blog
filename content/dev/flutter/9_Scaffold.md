@@ -120,6 +120,7 @@ return Scaffold(
 ```dart
 return Scaffold(
   appBar: AppBar(
+    backgroundColor: Theme.of(context).colorScheme.surface,
     scrolledUnderElevation: 0.0,
     // ...
   ),
