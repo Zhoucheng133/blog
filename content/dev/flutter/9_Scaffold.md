@@ -56,7 +56,7 @@ return Scaffold(
 );
 ```
 
-#### items
+Items如下
 
 ```dart
 items: [
@@ -68,7 +68,23 @@ items: [
 ]
 ```
 
+或者使用NavigationBar
 
+```dart
+return Scaffold(
+	bottomNavigationBar: NavigationBar(
+    destinations: [
+      NavigationDestination(
+        icon: Icon(Icons.home), // 图标是什么
+        label: "主页",  //文本显示什么
+      ),
+      // ... (至少写两个NavigationDestination)
+    ],
+    selectedIndex: curIndex,
+    onDestinationSelected: (int index){}, // 点击item操作（一般为setState currentIndex）
+  ),
+);
+```
 
 ### FloatingActionButton
 
