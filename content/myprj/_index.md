@@ -212,7 +212,7 @@ title: My Projects | 开发的项目
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/EXIF-Helper">EXIF Helper</a></td>
       <td><a href="https://github.com/Zhoucheng133/EXIF-Helper">App</a></td>
       <td>Flutter</td>
-      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td rowspan="2"><img draggable=false src="assets/platform/cross.png" width=30 style="width: 30px" /></td>
       <td rowspan="2">EXIF ​​Watermark Adding Tool</td>
     </tr>
     <tr>
