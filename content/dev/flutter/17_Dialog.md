@@ -80,6 +80,35 @@ showDialog(
 );
 ```
 
+## 指定路由
+
+通过指定路由可以防止在关闭对话框的时候干涉到其他的页面或者对话框
+
+```dart
+Route showRouteDialog(BuildContext context, String title, String content) {
+  return DialogRoute(
+    context: context, 
+    builder: (context)=>AlertDialog(
+      title: Text(title),
+      content: Text(content),
+    )
+  );
+}
+```
+
+调用的时候赋值给一个参数，关闭的时候使用`removeRoute`而不是`pop`
+
+```dart
+// 显示对话框
+Route routeDialog = showRouteDialog(context, "Title", "Content");
+Navigator.of(context).push(fixedDialog);
+
+// ...
+
+// 关闭这个对话框
+Navigator.of(context).removeRoute(routeDialog);
+```
+
 ## 在`Dialog`中使用`setState`
 
 ```dart
