@@ -260,6 +260,33 @@ return GetMaterialApp(
 Get.to(()=>newPage());
 ```
 
+### 混合路由
+
+GetX可以实现页面中只有一部分内容受到路由的影响
+
+```dart
+return Navigator(
+  // 注意添加一个key
+  key: Get.nestedKey(1),
+  initialRoute: '/home',
+  onGenerateRoute: (settings) {
+    switch (settings.name) {
+      case "/home":
+        return GetPageRoute(page: () => const HomeView());
+      case "/settings":
+        return GetPageRoute(page: () => const SettingsView());
+      // ... 添加更多路由
+    }
+    return null;
+  },
+),
+```
+
+在跳转的时候注意携带id
+```dart
+Get.toNamed("/settings", id: 1);
+```
+
 ## 多语言
 
 > [!IMPORTANT]
