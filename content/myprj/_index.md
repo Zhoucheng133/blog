@@ -127,16 +127,20 @@ title: My Projects | 开发的项目
       <td>Python</td>
     </tr>
     <tr>
-      <td rowspan="2"><img draggable=false src="assets/gamma.svg" width=50 style="width: 50px" /></td>
-      <td rowspan="2"><a href="https://github.com/Zhoucheng133/Gamma-Setter">Gamma Setter</a></td>
+      <td rowspan="3"><img draggable=false src="assets/gamma.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="3"><a href="https://github.com/Zhoucheng133/Gamma-Setter">Gamma Setter</a></td>
       <td><a href="https://github.com/Zhoucheng133/Gamma-Setter">App</a></td>
       <td>Flutter</td>
-      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">Monitor's Gamma Adjust Tool</td>
+      <td rowspan="3"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td rowspan="3">Monitor's Gamma Adjust Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Gamma-Setter-Core">Core</a></td>
       <td>Rust</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/Windows-OSD">OSD</a></td>
+      <td>Go</td>
     </tr>
     <tr>
     <tr>
