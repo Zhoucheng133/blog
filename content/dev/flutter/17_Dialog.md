@@ -178,3 +178,28 @@ showDialog(
 );
 
 ```
+
+## 注意软键盘遮挡
+
+如果Dialog的内容过长，可能会导致超出页面，或者移动端软键盘遮挡内容，可以使用`SingleChildScrollView`解决
+
+```dart
+showDialog(
+  context: context,
+  builder: (context) {
+    return AlertDialog(
+      title: Text('输入信息'),
+      content: SingleChildScrollView(
+        child: Column(
+          // 注意设置Column的最小高度
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // 内容...
+          ],
+        ),
+      ),
+      // ...
+    );
+  },
+);
+```
