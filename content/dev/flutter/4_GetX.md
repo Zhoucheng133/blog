@@ -444,3 +444,11 @@ return Obx(()=>
   )
 );
 ```
+
+## 全局Context
+
+通过`Get.context`可以获取到根`context`
+
+> [!NOTE]
+> Get.context的类型是`BuildContext?`，如果要使用，必须满足根节点是`GetMaterialApp`  
+> 如果满足根节点是`GetMaterialApp`，可以这样使用`Get.context!`得到根`context`
