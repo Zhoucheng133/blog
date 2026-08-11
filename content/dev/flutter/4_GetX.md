@@ -452,3 +452,10 @@ return Obx(()=>
 > [!NOTE]
 > Get.context的类型是`BuildContext?`，如果要使用，必须满足根节点是`GetMaterialApp`  
 > 如果满足根节点是`GetMaterialApp`，可以这样使用`Get.context!`得到根`context`
+
+## 深色模式识别
+
+GetX还可以判断当前是否处于深色模式
+
+- `Get.isDarkMode`: Material App是否处于深色模式 (根节点需要是`GetMaterialApp`)
+- `Get.isPlatformDarkMode`: 系统是否是否处于深色模式
