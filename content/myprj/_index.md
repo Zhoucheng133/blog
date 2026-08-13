@@ -102,7 +102,7 @@ title: My Projects | 开发的项目
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Server-Express">Server Express</a></td>
       <td><a href="https://github.com/Zhoucheng133/Server-Express">App</a></td>
       <td>Flutter</td>
-      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td rowspan="2"><img draggable=false src="assets/platform/cross.png" width=30 style="width: 30px" /></td>
       <td rowspan="2">SFTP Client</td>
     </tr>
     <tr>
