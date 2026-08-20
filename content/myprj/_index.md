@@ -377,6 +377,20 @@ title: My Projects | 开发的项目
       <td>Svelte</td>
     </tr>
     <tr>
+      <td style="text-align: center;">/</td>
+      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
+      <td>/</td>
+      <td>Go</td>
+      <td>Deploy WebDAV Server with Docker</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">/</td>
+      <td><a href="https://github.com/Zhoucheng133/LocalSocks-Docker">LocalSocks with Docker</a></td>
+      <td>/</td>
+      <td>Go</td>
+      <td>Deploy WebDAV Socks5 overTLS with Docker</td>
+    </tr>
+    <tr>
       <td rowspan="2" style="text-align: center;">/</td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Index-Page">Index Page</a></td>
       <td><a href="https://github.com/Zhoucheng133/Index-Page-Core">Server</a></td>
@@ -436,11 +450,6 @@ title: My Projects | 开发的项目
       <td><a href="https://github.com/Zhoucheng133/Live-BG">LiveBG</a></td>
       <td>Gin & Vue</td>
       <td>netPlayer OBS Live Background</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
-      <td>Go</td>
-      <td>Deploy WebDAV Server with Docker</td>
     </tr>
   </tbody>
 </table>
