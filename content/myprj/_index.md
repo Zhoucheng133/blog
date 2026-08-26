@@ -377,18 +377,22 @@ title: My Projects | 开发的项目
       <td>Svelte</td>
     </tr>
     <tr>
+      <td rowspan="2" style="text-align: center;"><img draggable=false src="assets/localsocks.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/LocalSocks">LocalSocks</a></td>
+      <td><a href="https://github.com/Zhoucheng133/LocalSocks">Server</a></td>
+      <td>Fiber</td>
+      <td rowspan="2">Deploy Socks5 overTLS with Docker</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/LocalSocks-Web">WebUI</a></td>
+      <td>React</td>
+    </tr>
+    <tr>
       <td style="text-align: center;">/</td>
       <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
       <td>/</td>
       <td>Go</td>
       <td>Deploy WebDAV Server with Docker</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">/</td>
-      <td><a href="https://github.com/Zhoucheng133/LocalSocks-Docker">LocalSocks with Docker</a></td>
-      <td>/</td>
-      <td>Go</td>
-      <td>Deploy WebDAV Socks5 overTLS with Docker</td>
     </tr>
     <tr>
       <td rowspan="2" style="text-align: center;">/</td>
