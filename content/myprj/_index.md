@@ -388,11 +388,15 @@ title: My Projects | 开发的项目
       <td>React</td>
     </tr>
     <tr>
-      <td style="text-align: center;">/</td>
-      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
-      <td>/</td>
+      <td style="text-align: center;" rowspan="2"><img draggable=false src="assets/dav.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
+      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">Server</a></td>
       <td>Go</td>
-      <td>Deploy WebDAV Server with Docker</td>
+      <td rowspan="2">Deploy WebDAV Server with Docker</td>
+      <tr>
+        <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker-Web">WebUI</a></td>
+        <td>React</td>
+      </tr>
     </tr>
     <tr>
       <td rowspan="2" style="text-align: center;">/</td>
