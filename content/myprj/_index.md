@@ -107,7 +107,7 @@ title: My Projects | 开发的项目
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Server-Express-Core">Core</a></td>
-      <td>Rust</td>
+      <td>Go</td>
     </tr>
     <tr>
       <td rowspan="3"><img draggable=false src="assets/musicdl.svg" width=50 style="width: 50px" /></td>
